@@ -30,21 +30,17 @@ The workflow automates the lead-management process so that incoming lead informa
 
 ### High-Level Architecture
 
-```text
-Lead / Customer
-       ↓
-Lead Information
-       ↓
-n8n Automation
-       ↓
-AI Processing
-       ↓
-Lead Management
-       ↓
-CRM / Data Storage
-       ↓
-Follow-Up / Business Action
-```
+flowchart TD
+    A["📩 Lead / Customer"] --> B["📝 Lead Information<br/>Name, Email, Service & Message"]
+    B --> C["⚙️ n8n Automation<br/>Webhook Trigger"]
+    C --> D["🤖 AI Processing<br/>Lead Analysis & Qualification"]
+    D --> E["📊 Lead Management<br/>Priority & Lead Score"]
+    E --> F["🗂️ CRM / Data Storage<br/>Notion / Airtable"]
+    F --> G["📨 Follow-Up / Business Action<br/>Slack Notifications & Customer Follow-Up"]
+
+    H["🧠 AI Model"] -.-> D
+    I["🔗 n8n Integrations"] -.-> F
+    I -.-> G
 
 ---
 
