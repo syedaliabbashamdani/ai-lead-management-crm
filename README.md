@@ -28,8 +28,11 @@ This project demonstrates an automated approach to lead management using **n8n a
 
 The workflow automates the lead-management process so that incoming lead information can be processed and organized automatically.
 
-### High-Level Architecture
+## ⚙️ Workflow Architecture
 
+The following diagram illustrates the complete AI-powered lead management automation workflow, from lead collection to CRM storage and automated follow-up.
+
+```mermaid
 flowchart TD
     A["📩 Lead / Customer"] --> B["📝 Lead Information<br/>Name, Email, Service & Message"]
     B --> C["⚙️ n8n Automation<br/>Webhook Trigger"]
@@ -41,6 +44,18 @@ flowchart TD
     H["🧠 AI Model"] -.-> D
     I["🔗 n8n Integrations"] -.-> F
     I -.-> G
+
+    classDef process fill:#e8f1ff,stroke:#2563eb,stroke-width:1px,color:#111827
+    classDef ai fill:#f3e8ff,stroke:#9333ea,stroke-width:1px,color:#111827
+    classDef storage fill:#dcfce7,stroke:#16a34a,stroke-width:1px,color:#111827
+    classDef action fill:#ffedd5,stroke:#ea580c,stroke-width:1px,color:#111827
+
+    class A,B,C process
+    class D,H ai
+    class E,F,I storage
+    class G action
+```
+
 
 ---
 
