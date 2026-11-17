@@ -182,7 +182,7 @@ Screenshots demonstrating the actual implementation will be added here.
 ---
 ## 📚 Project Documentation
 
-Read the complete [Project Walkthrough]()
+Read the complete [Project Walkthrough](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/20add7de55f070a7c7414538012da31ca8f23f96/docs/PROJECT-WALKTHROUGH.md)
 to understand the workflow architecture, individual steps,
 technologies, and business applications.
 
