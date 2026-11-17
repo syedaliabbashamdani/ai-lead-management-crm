@@ -155,8 +155,8 @@ Possible AI-assisted tasks include:
 Screenshots demonstrating the actual implementation will be added here.
 
 ### Workflow Overview
-
-![Workflow Overview](screenshots/workflow-overview.png)
+1. Complete workflow overview of crm lead management system.
+![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/d601dd0423051e356c3f843175f584bf9264f469/workflow-images/Screenshot%202026-11-17%20103422.png)
 
 ### Lead Processing
 
