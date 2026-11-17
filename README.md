@@ -164,13 +164,20 @@ Screenshots demonstrating the actual implementation will be added here.
 2. Incoming lead data clean structured by edit field.
 ![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/3ac70b3ea16afc8718c8e5abef560d31c2114acc/workflow-images/Screenshot%202026-11-17%20104531.png)
 
-### Ai summary generating by google gemini.
+### Ai summary generating.
 
+3. Ai summary generating by google Gemini to easy understanding for customer lead.
 ![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/98ab5764e7672400d146276ed7466b6e6d1c9a92/workflow-images/Screenshot%202026-11-17%20104153.png)
 
 ### CRM / Lead Data
 
-![CRM Lead Data](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/98ab5764e7672400d146276ed7466b6e6d1c9a92/workflow-images/Screenshot%202026-11-17%20104153.png)
+4. Incoming lead data save to notion crm.
+![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/c88e92483108784219cd9fc05d37ccb2153c6414/workflow-images/Screenshot%202026-11-17%20104421.png)
+
+### Successful workflow
+
+5. workflow executed sucessfully.
+![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/c88e92483108784219cd9fc05d37ccb2153c6414/workflow-images/Screenshot%202026-11-17%20104421.png)
 
 ---
 # 📈 Business Benefits
