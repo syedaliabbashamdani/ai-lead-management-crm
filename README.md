@@ -164,12 +164,15 @@ Screenshots demonstrating the actual implementation will be added here.
 2. Incoming lead data clean structured by edit field.
 ![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/3ac70b3ea16afc8718c8e5abef560d31c2114acc/workflow-images/Screenshot%202026-11-17%20104531.png)
 
+### Ai summary generating by google gemini.
+
+![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/98ab5764e7672400d146276ed7466b6e6d1c9a92/workflow-images/Screenshot%202026-11-17%20104153.png)
+
 ### CRM / Lead Data
 
-![CRM Lead Data](screenshots/crm-leads.png)
+![CRM Lead Data](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/98ab5764e7672400d146276ed7466b6e6d1c9a92/workflow-images/Screenshot%202026-11-17%20104153.png)
 
 ---
-
 # 📈 Business Benefits
 
 An automated lead-management workflow can help businesses:
