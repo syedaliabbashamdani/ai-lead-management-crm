@@ -180,6 +180,12 @@ Screenshots demonstrating the actual implementation will be added here.
 ![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/c3c1725a2d6fedae64dca29ac5ecf55b2fa1ab67/workflow-images/Screenshot%202026-11-17%20104637.png)
 
 ---
+## 📚 Project Documentation
+
+Read the complete [Project Walkthrough]()
+to understand the workflow architecture, individual steps,
+technologies, and business applications.
+
 # 📈 Business Benefits
 
 An automated lead-management workflow can help businesses:
