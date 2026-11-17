@@ -177,7 +177,7 @@ Screenshots demonstrating the actual implementation will be added here.
 ### Successful workflow
 
 5. workflow executed sucessfully.
-![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/c88e92483108784219cd9fc05d37ccb2153c6414/workflow-images/Screenshot%202026-11-17%20104421.png)
+![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/c3c1725a2d6fedae64dca29ac5ecf55b2fa1ab67/workflow-images/Screenshot%202026-11-17%20104637.png)
 
 ---
 # 📈 Business Benefits
