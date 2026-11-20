@@ -115,7 +115,7 @@ My CRM automation is divided into two main stages.
 ---
 
 !***Webhook incoming data into webhook node.***
-![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/6d71e9a03714802622583b98fc8340e631730e1b/workflow-images/image%20(11).png)
+![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/57f512621a528482b5717d531bb800d947c0f435/workflow-images/image%20(12).png)
 
 ---
 
