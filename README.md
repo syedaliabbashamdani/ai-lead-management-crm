@@ -1,4 +1,10 @@
-📘** AI Lead Management CRM**
+📘 AI Lead Management CRM — Project Walkthrough
+
+1. Introduction
+
+This project is an advanced Lead Management CRM automation system developed using n8n, Airtable, and Slack.
+
+The system automates the process of capturing incom
 
 ## Project Overview
 
