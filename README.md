@@ -32,6 +32,7 @@ The workflow automates the lead-management process so that incoming lead informa
 
 The following diagram illustrates the complete AI-powered lead management automation workflow, from lead collection to CRM storage and automated follow-up.
 
+
 ```mermaid
 flowchart TD
     A["📩 Lead / Customer"] --> B["📝 Lead Information<br/>Name, Email, Service & Message"]
@@ -44,7 +45,18 @@ flowchart TD
     H["🧠 AI Model"] -.-> D
     I["🔗 n8n Integrations"] -.-> F
     I -.-> G
+
+    style A fill:#E1F5FE,stroke:#0288D1,stroke-width:2px,color:#01579B
+    style B fill:#E8EAF6,stroke:#3949AB,stroke-width:2px,color:#1A237E
+    style C fill:#FFF3E0,stroke:#FB8C00,stroke-width:2px,color:#E65100
+    style D fill:#F3E5F5,stroke:#8E24AA,stroke-width:2px,color:#4A148C
+    style E fill:#FFF9C4,stroke:#F9A825,stroke-width:2px,color:#795548
+    style F fill:#E8F5E9,stroke:#43A047,stroke-width:2px,color:#1B5E20
+    style G fill:#E0F2F1,stroke:#00897B,stroke-width:2px,color:#004D40
+    style H fill:#FCE4EC,stroke:#D81B60,stroke-width:2px,color:#880E4F
+    style I fill:#ECEFF1,stroke:#546E7A,stroke-width:2px,color:#263238
 ```
+
 
 
 ## ⚙️ Automation Workflow
