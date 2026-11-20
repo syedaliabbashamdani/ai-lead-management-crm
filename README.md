@@ -1,4 +1,4 @@
-# **AI Lead Management CRM**
+# AI Lead Management CRM**
 
 ## Project Overview
 
