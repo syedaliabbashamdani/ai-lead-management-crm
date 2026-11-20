@@ -44,7 +44,6 @@ flowchart TD
     H["🧠 AI Model"] -.-> D
     I["🔗 n8n Integrations"] -.-> F
     I -.-> G
----
 
 ## ⚙️ Automation Workflow
 
