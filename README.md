@@ -105,8 +105,7 @@ My CRM automation is divided into two main stages.
 ## Workflow Screenshots
 
 !***Complete n8n Advanced Lead Management CRM Workflow.***
-
-***Complete n8n Advanced Lead Management CRM Workflow.***
+![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/17b3d1cfb0a4d193f5601b0eb5a946a4ef7a4fea/workflow-images/Screenshot%202026-11-08%20134343.jpg)
 
 ---
 
