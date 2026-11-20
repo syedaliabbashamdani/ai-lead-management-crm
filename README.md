@@ -32,29 +32,18 @@ The workflow automates the lead-management process so that incoming lead informa
 
 The following diagram illustrates the complete AI-powered lead management automation workflow, from lead collection to CRM storage and automated follow-up.
 
-
 ```mermaid
 flowchart TD
-    A["📚 Knowledge Source<br/>PDF, DOCX, Website & Google Sheets"] --> B["⚙️ Document Processing<br/>Extract & Clean Text"]
-    B --> C["✂️ Text Chunking<br/>Split Documents into Smaller Chunks"]
-    C --> D["🔢 Embeddings Generation<br/>Convert Text into Vector Embeddings"]
-    D --> E["🗄️ Knowledge Storage<br/>Store Vectors & Metadata"]
+    A["📩 Lead / Customer"] --> B["📝 Lead Information<br/>Name, Email, Service & Message"]
+    B --> C["⚙️ n8n Automation<br/>Webhook Trigger"]
+    C --> D["🤖 AI Processing<br/>Lead Analysis & Qualification"]
+    D --> E["📊 Lead Management<br/>Priority & Lead Score"]
+    E --> F["🗂️ CRM / Data Storage<br/>Notion / Airtable"]
+    F --> G["📨 Follow-Up / Business Action<br/>Slack Notifications & Customer Follow-Up"]
 
-    F["🤖 AI Embedding Model"] -.-> D
-    G["🔗 n8n Automation"] -.-> B
-    G -.-> C
-    G -.-> E
-
-    style A fill:#E1F5FE,stroke:#0288D1,stroke-width:2px,color:#01579B
-    style B fill:#E8EAF6,stroke:#3949AB,stroke-width:2px,color:#1A237E
-    style C fill:#FFF3E0,stroke:#FB8C00,stroke-width:2px,color:#E65100
-    style D fill:#F3E5F5,stroke:#8E24AA,stroke-width:2px,color:#4A148C
-    style E fill:#E8F5E9,stroke:#43A047,stroke-width:2px,color:#1B5E20
-    style F fill:#FCE4EC,stroke:#D81B60,stroke-width:2px,color:#880E4F
-    style G fill:#ECEFF1,stroke:#546E7A,stroke-width:2px,color:#263238
-```
-
-
+    H["🧠 AI Model"] -.-> D
+    I["🔗 n8n Integrations"] -.-> F
+    I -.-> G
 ---
 
 ## ⚙️ Automation Workflow
