@@ -1,149 +1,220 @@
-## 📘 AI Lead Management CRM
+# 📘 AI Lead Management CRM
 
+## 🎯 Project Overview
 
-## project overview
-I developed an automated Lead Management CRM using n8n, Airtable, and Slack. This system helps businesses capture, organize, prioritize, and manage incoming customer leads automatically.
+I developed an automated Lead Management CRM using n8n, Airtable, and Slack.
+
+The system receives customer information through a website form, processes incoming lead data, checks existing CRM records, manages lead information, assigns priorities, and sends notifications to the sales team.
+
+The main objective is to help businesses manage incoming leads efficiently without relying on repetitive manual work.
 
 ---
 
-## Business Problem
+## ⚠️ Business Problem
 
 Businesses often receive leads through website forms and manually enter customer information into spreadsheets or CRM systems.
 
-This process can cause:
+This process can create several challenges:
 
 - Delayed responses to potential customers.
-- Manual data entry.
+- Repetitive manual data entry.
 - Poor lead organization.
+- Duplicate customer records.
+- Difficulty identifying high-priority leads.
 - Missed business opportunities.
 
 ---
 
-## Workflow Architecture
+## 💡 Solution
 
-I built an n8n workflow that automates the lead management process.
+I developed an n8n automation workflow that connects a website lead form with Airtable CRM and Slack.
 
-```mermaid id="air582"
+The automation handles:
+
+- Incoming lead collection.
+- Customer data processing.
+- Duplicate lead checking.
+- Lead scoring and priority classification.
+- CRM record creation and updating.
+- Priority-based Slack notifications.
+
+---
+
+## 🏗️ Workflow Architecture
+
+The system follows this architecture:
+
+```mermaid
 flowchart TD
-    A["🌐 Website Lead Form<br/>Customer Submits Information"]
-    B["⚙️ n8n Webhook<br/>Receives Lead Information"]
-    C["🤖 Data Processing & Lead Classification<br/>Organizes Data & Assigns Priority"]
-    D["🗄️ Airtable CRM<br/>Store & Manage Lead Records"]
-    E["💬 Slack Notifications<br/>Notify Sales Team"]
+    A["🌐 Website Lead Form"]
+    B["⚙️ n8n Webhook"]
+    C["📝 Data Processing"]
+    D["🔍 Duplicate Lead Check"]
+    E["🗄️ Airtable CRM"]
+    F["📊 Lead Scoring"]
+    G["🔄 Update CRM Record"]
+    H{"Lead Priority"}
+    I["🚨 High Priority Slack Alert"]
+    J["💬 Standard Slack Notification"]
 
     A --> B
     B --> C
     C --> D
     D --> E
-
-    F["🔗 n8n Automation"] -.-> B
-    G["🧠 AI Processing"] -.-> C
-    H["📊 CRM Integration"] -.-> D
-    I["📨 Team Communication"] -.-> E
-
-    style A fill:#E1F5FE,stroke:#0288D1,stroke-width:2px,color:#01579B
-    style B fill:#E8EAF6,stroke:#3949AB,stroke-width:2px,color:#1A237E
-    style C fill:#F3E5F5,stroke:#8E24AA,stroke-width:2px,color:#4A148C
-    style D fill:#E8F5E9,stroke:#43A047,stroke-width:2px,color:#1B5E20
-    style E fill:#E0F2F1,stroke:#00897B,stroke-width:2px,color:#004D40
-    style F fill:#ECEFF1,stroke:#546E7A,stroke-width:2px,color:#263238
-    style G fill:#FCE4EC,stroke:#D81B60,stroke-width:2px,color:#880E4F
-    style H fill:#FFF9C4,stroke:#F9A825,stroke-width:2px,color:#795548
-    style I fill:#FFF3E0,stroke:#FB8C00,stroke-width:2px,color:#E65100
+    E --> F
+    F --> G
+    G --> H
+    H -->|High| I
+    H -->|Normal| J
 ```
 
+---
 
-### Workflow Process
+## ⚙️ Workflow Process
 
-My CRM automation is divided into two main stages.
+The automation is divided into two main stages.
 
-### Stage 1: Lead Capture and Database Management
+### Stage 1: Lead Capture & Database Management
 
-1. Webhook receives customer information.
-2. Edit Fields organizes incoming data.
-3. IF node evaluates the lead-processing condition.
-4. Airtable Search Records checks whether the lead already exists.
-5. IF node determines whether to create or handle an existing record.
-6. Airtable Create Record stores new lead information.
+1. **Webhook:** Receives incoming customer information from the website lead form.
+2. **Edit Fields:** Organizes and prepares the incoming lead data.
+3. **IF Node:** Evaluates the lead-processing condition.
+4. **Airtable Search Records:** Checks whether the lead already exists in the CRM.
+5. **IF Node:** Determines how to handle new and existing records.
+6. **Airtable Create Record:** Stores new lead information in Airtable.
 
-### Stage 2: Lead Scoring and Notifications
+### Stage 2: Lead Scoring & Notifications
 
-1. Lead Scoring processes the lead information.
-2. Airtable Update Record updates the lead record.
-3. Check Lead Priority evaluates the assigned priority.
-4. High-priority leads trigger a dedicated Slack notification.
-5. Normal-priority leads trigger a standard Slack notification.
-
-### Automation Benefits
-
-- Centralized lead management.
-- Duplicate lead checking.
-- Automated lead scoring.
-- Priority-based notifications.
-- Less manual data entry.
+1. **Lead Scoring:** Processes lead information and assigns a priority.
+2. **Airtable Update Record:** Updates the CRM record with the scoring information.
+3. **Check Lead Priority:** Evaluates the assigned lead priority.
+4. **High Priority Notification:** Sends a dedicated Slack notification for high-priority leads.
+5. **Standard Notification:** Sends a standard Slack notification for normal-priority leads.
 
 ---
 
-## Key Features
+## ✨ Key Features
 
-- Automated lead capture.
-- Customer information management.
-- Lead priority classification.
-- Airtable CRM integration.
-- Slack notifications.
-- Reduced manual data entry.
-
-## Technologies Used
-
-- n8n – Workflow automation
-- Airtable – Lead database
-- Slack – Team notifications
-- Webhooks – Data collection
+- 🌐 Automated website lead capture.
+- 📝 Customer information processing.
+- 🔍 Duplicate lead detection.
+- 📊 Automated lead scoring.
+- 🚦 Lead priority classification.
+- 🗄️ Airtable CRM integration.
+- 💬 Slack team notifications.
+- ⚡ Reduced manual data entry.
 
 ---
 
-## Workflow Screenshots
+## 🛠️ Technologies Used
 
-!***Complete n8n Advanced Lead Management CRM Workflow.***
-![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/17b3d1cfb0a4d193f5601b0eb5a946a4ef7a4fea/workflow-images/Screenshot%202026-11-08%20134343.jpg)
-
----
-
-!***Successful Workflow Execution – Lead Capture and Processing.***
-![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/6d71e9a03714802622583b98fc8340e631730e1b/workflow-images/image%20(11).png)
-
----
-
-!***Webhook incoming data into webhook node.***
-![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/57f512621a528482b5717d531bb800d947c0f435/workflow-images/image%20(12).png)
+| Technology | Purpose |
+|---|---|
+| n8n | Workflow automation |
+| Airtable | Lead database and CRM |
+| Slack | Sales team notifications |
+| Webhooks | Incoming lead collection |
+| JSON | Structured data processing |
 
 ---
 
-!***Customer lead data saved to airtable.***
-![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/8ce69705cfab8cf400c8be23faab66d68012c445/workflow-images/image%20(13).png)
+## 📸 Workflow Screenshots
+
+### 1. Complete n8n Workflow
+
+The complete Lead Management CRM automation, showing the connected workflow stages.
+
+![Complete n8n Lead Management Workflow](workflow-images/Screenshot%202026-11-08%20134343.jpg)
+
+### 2. Successful Workflow Execution
+
+Demonstration of successful lead capture and processing.
+
+![Successful Workflow Execution](workflow-images/image%20(11).png)
+
+### 3. Webhook Incoming Data
+
+Incoming customer information received through the n8n Webhook node.
+
+![Webhook Incoming Data](workflow-images/image%20(12).png)
+
+### 4. Airtable CRM Record
+
+Customer lead information successfully stored in Airtable.
+
+![Airtable CRM Record](workflow-images/image%20(13).png)
+
+### 5. Slack Notification
+
+Lead notification successfully delivered to the Slack team.
+
+![Slack Notification](workflow-images/image%20(14).png)
 
 ---
 
-!***Slack lead notification send to slack team.***
-![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/21ba266d8e7cfa186cc69b6e6c3f52b6fa193f47/workflow-images/image%20(14).png)
+## 📊 Results
+
+The workflow was successfully tested and demonstrated the following:
+
+- Incoming test leads were received through the webhook.
+- Customer information was processed.
+- Lead records were stored in Airtable.
+- Lead priority was evaluated.
+- Slack notifications were sent according to lead priority.
+
+The project demonstrates an automated process for managing incoming business leads.
 
 ---
+
+## 💼 Business Benefits
+
+This automation can help businesses:
+
+- Reduce repetitive manual data entry.
+- Keep customer information organized.
+- Identify important leads more efficiently.
+- Improve sales team visibility.
+- Reduce the risk of missed leads.
+- Centralize lead information in Airtable.
+
+---
+
 ## 📚 Project Documentation
 
-Read the complete [Project Walkthrough](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/055ec36b982884ebc17d15a2711e0bb4ec056fda/docs/PROJECT-WALKTHROUGH.md)
-to understand the workflow architecture, individual steps,
-technologies, and business applications.
+For a detailed explanation of the workflow architecture, individual nodes, configuration, and business applications, read the complete project walkthrough:
 
-## Results
-
-The workflow successfully captures test leads, stores their information in Airtable, and sends Slack notifications.
+📖 **[Read the Complete Project Walkthrough](docs/PROJECT-WALKTHROUGH.md)**
 
 ---
 
-## Project Type
+## 📌 Project Information
 
-Personal Automation Project / Portfolio Demonstration
+| Detail | Description |
+|---|---|
+| Project Name | AI Lead Management CRM |
+| Project Type | Personal Automation Project |
+| Automation Platform | n8n |
+| CRM Database | Airtable |
+| Notification Platform | Slack |
+| Project Status | Completed |
+| Demonstration | Test workflow execution |
 
-## Skills Demonstrated
+---
 
-n8n Workflow Automation | Webhooks | Airtable Integration | Slack Integration | Data Processing
+## 🚀 Need a Similar Automation?
+
+I can help businesses build custom automation systems for:
+
+- Lead capture and management.
+- CRM automation.
+- Automated lead qualification.
+- Sales team notifications.
+- Business process automation.
+- API and application integrations.
+
+**Let's automate your business processes!**
+
+👨‍💻 **Developer:** Syed Ali Abbas
+
+🔗 **GitHub:** [github.com/syedaliabbashamdani](https://github.com/syedaliabbashamdani)
+
