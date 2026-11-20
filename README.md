@@ -44,28 +44,33 @@ The automation handles:
 
 The system follows this architecture:
 
-```mermaid
+```mermaid id="air582"
 flowchart TD
-    A["🌐 Website Lead Form"]
-    B["⚙️ n8n Webhook"]
-    C["📝 Data Processing"]
-    D["🔍 Duplicate Lead Check"]
-    E["🗄️ Airtable CRM"]
-    F["📊 Lead Scoring"]
-    G["🔄 Update CRM Record"]
-    H{"Lead Priority"}
-    I["🚨 High Priority Slack Alert"]
-    J["💬 Standard Slack Notification"]
+    A["🌐 Website Lead Form<br/>Customer Submits Information"]
+    B["⚙️ n8n Webhook<br/>Receives Lead Information"]
+    C["🤖 Data Processing & Lead Classification<br/>Organizes Data & Assigns Priority"]
+    D["🗄️ Airtable CRM<br/>Store & Manage Lead Records"]
+    E["💬 Slack Notifications<br/>Notify Sales Team"]
 
     A --> B
     B --> C
     C --> D
     D --> E
-    E --> F
-    F --> G
-    G --> H
-    H -->|High| I
-    H -->|Normal| J
+
+    F["🔗 n8n Automation"] -.-> B
+    G["🧠 AI Processing"] -.-> C
+    H["📊 CRM Integration"] -.-> D
+    I["📨 Team Communication"] -.-> E
+
+    style A fill:#E1F5FE,stroke:#0288D1,stroke-width:2px,color:#01579B
+    style B fill:#E8EAF6,stroke:#3949AB,stroke-width:2px,color:#1A237E
+    style C fill:#F3E5F5,stroke:#8E24AA,stroke-width:2px,color:#4A148C
+    style D fill:#E8F5E9,stroke:#43A047,stroke-width:2px,color:#1B5E20
+    style E fill:#E0F2F1,stroke:#00897B,stroke-width:2px,color:#004D40
+    style F fill:#ECEFF1,stroke:#546E7A,stroke-width:2px,color:#263238
+    style G fill:#FCE4EC,stroke:#D81B60,stroke-width:2px,color:#880E4F
+    style H fill:#FFF9C4,stroke:#F9A825,stroke-width:2px,color:#795548
+    style I fill:#FFF3E0,stroke:#FB8C00,stroke-width:2px,color:#E65100
 ```
 
 ---
