@@ -135,7 +135,7 @@ Screenshots demonstrating the actual implementation will be added here.
 ### Workflow Overview
 
 1. Complete workflow overview of crm lead management system.
-![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/d601dd0423051e356c3f843175f584bf9264f469/workflow-images/Screenshot%202026-11-17%20103422.png)
+![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/43e2d95f23b91a1d808fe6d8d0c822ed601a1c7b/workflow-images/Screenshot%202026-11-08%20134343.jpg)
 
 ### Lead Processing
 
