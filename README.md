@@ -125,7 +125,7 @@ My CRM automation is divided into two main stages.
 ---
 
 !***Slack lead notification send to slack team.***
-![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/6d71e9a03714802622583b98fc8340e631730e1b/workflow-images/image%20(11).png)
+![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/21ba266d8e7cfa186cc69b6e6c3f52b6fa193f47/workflow-images/image%20(14).png)
 
 ---
 
