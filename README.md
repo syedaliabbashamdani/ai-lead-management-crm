@@ -110,26 +110,22 @@ My CRM automation is divided into two main stages.
 ---
 
 !***Successful Workflow Execution – Lead Capture and Processing.***
-
-***Successful Workflow Execution – Lead Capture and Processing.***
+![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/6d71e9a03714802622583b98fc8340e631730e1b/workflow-images/image%20(11).png)
 
 ---
 
 !***Webhook incoming data into webhook node.***
-
-***Webhook incoming data into webhook node.***
+![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/6d71e9a03714802622583b98fc8340e631730e1b/workflow-images/image%20(11).png)
 
 ---
 
 !***Customer lead data saved to airtable.***
-
-***Customer lead data saved to airtable.***
+![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/6d71e9a03714802622583b98fc8340e631730e1b/workflow-images/image%20(11).png)
 
 ---
 
 !***Slack lead notification send to slack team.***
-
-***Slack lead notification send to slack team.***
+![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/6d71e9a03714802622583b98fc8340e631730e1b/workflow-images/image%20(11).png)
 
 ---
 
