@@ -46,38 +46,6 @@ Receives incoming customer information, processes the data, checks existing CRM 
 
 Processes lead information, assigns priority, updates Airtable records, and sends the appropriate Slack notification.
 
-### Architecture Diagram
-
-```mermaid
-flowchart TD
-    A["Website Lead Form"]
-    B["Webhook"]
-    C["Edit Fields"]
-    D["IF Condition"]
-    E["Airtable Search Records"]
-    F["IF: Existing Lead Check"]
-    G["Airtable Create Record"]
-    H["Lead Scoring"]
-    I["Airtable Update Record"]
-    J["Check Lead Priority"]
-    K["High Priority Slack Notification"]
-    L["Normal Priority Slack Notification"]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
-    H --> I
-    I --> J
-    J -->|High Priority| K
-    J -->|Normal Priority| L
-```
-
----
-
 # 4. Detailed Workflow Explanation
 
 ## Stage 1 — Lead Capture and Database Management
