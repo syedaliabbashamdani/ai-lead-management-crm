@@ -120,7 +120,7 @@ My CRM automation is divided into two main stages.
 ---
 
 !***Customer lead data saved to airtable.***
-![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/6d71e9a03714802622583b98fc8340e631730e1b/workflow-images/image%20(11).png)
+![image alt](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/8ce69705cfab8cf400c8be23faab66d68012c445/workflow-images/image%20(13).png)
 
 ---
 
