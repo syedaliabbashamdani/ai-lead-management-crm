@@ -9,6 +9,13 @@ The system receives customer information through a website form, processes incom
 The main objective is to help businesses manage incoming leads efficiently without relying on repetitive manual work.
 
 ---
+## 📚 Project Documentation
+
+For a detailed explanation of the workflow architecture, individual nodes, configuration, and business applications, read the complete project walkthrough:
+
+📖 **[Read the Complete Project Walkthrough](docs/PROJECT-WALKTHROUGH.md)**
+
+---
 
 ## ⚠️ Business Problem
 
@@ -184,13 +191,6 @@ This automation can help businesses:
 
 ---
 
-## 📚 Project Documentation
-
-For a detailed explanation of the workflow architecture, individual nodes, configuration, and business applications, read the complete project walkthrough:
-
-📖 **[Read the Complete Project Walkthrough](docs/PROJECT-WALKTHROUGH.md)**
-
----
 
 ## 📌 Project Information
 
