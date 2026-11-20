@@ -130,7 +130,7 @@ My CRM automation is divided into two main stages.
 ---
 ## 📚 Project Documentation
 
-Read the complete [Project Walkthrough](https://github.com/syedaliabbashamdani/ai-wordpress-blog-automation/blob/f5db9dce4a3b01fda0789e699fc97a01a684ed2b/documentation/PROJECT-WALKTHROUGH.md)
+Read the complete [Project Walkthrough](https://github.com/syedaliabbashamdani/ai-lead-management-crm/blob/055ec36b982884ebc17d15a2711e0bb4ec056fda/docs/PROJECT-WALKTHROUGH.md)
 to understand the workflow architecture, individual steps,
 technologies, and business applications.
 
