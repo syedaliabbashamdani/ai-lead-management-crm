@@ -1,8 +1,8 @@
-# 📘 AI Lead Management CRM — Project Walkthrough
+# 📘 n8n Lead Management CRM — Project Walkthrough
 
 ## 1. Introduction
 
-The AI Lead Management CRM is an automated lead management system developed using **n8n, Airtable, and Slack**.
+The n8n Lead Management CRM is an automated lead management system developed using **n8n, Airtable, and Slack**.
 
 The purpose of this project is to automate the process of capturing, organizing, prioritizing, and managing incoming customer leads.
 
