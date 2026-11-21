@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="workflow-images/banner(2).png" alt="AI Lead Management CRM Banner">
+</p>
+
+# 📘 AI Lead Management CRM
+
+## 🎯 Project Overview
+...
 # 📘 N8N Lead Management CRM
 
 ## 🎯 Project Overview
