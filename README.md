@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="workflow-images/banner(2).png" alt="AI Lead Management CRM Banner">
+  <img src="workflow-images/banner%20(2).png" alt="AI Lead Management CRM Banner">
 </p>
 
 # 📘 AI Lead Management CRM
