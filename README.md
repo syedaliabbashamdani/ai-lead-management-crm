@@ -49,9 +49,10 @@ The automation handles:
 
 ## 🏗️ Workflow Architecture
 
+
 The system follows this architecture:
 
-```mermaid id="air582"
+```mermaid
 flowchart TD
     A["🌐 Website Lead Form<br/>Customer Submits Information"]
     B["⚙️ n8n Webhook<br/>Receives Lead Information"]
