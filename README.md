@@ -1,4 +1,4 @@
-# 📘 AI Lead Management CRM
+# 📘 N8N Lead Management CRM
 
 ## 🎯 Project Overview
 
